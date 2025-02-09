@@ -44,8 +44,8 @@ const Listedbook = () => {
                                 {/* Read Books List */}
                                 {
                                     readlist.map(book => <div className='mx-auto px-4 my-3 border py-2  rounded flex items-center gap-5' key={book.bookId}>
-                                        <div>
-                                            <img src={book.image} alt="Book Image" />
+                                        <div className="w-1/3 border  ">
+                                            <img className="h-60 m-3" src={book.image} alt="Book Image" />
                                         </div>
                                         <div>
                                             <h1>{book.bookName}</h1>
