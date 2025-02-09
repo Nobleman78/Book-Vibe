@@ -1,0 +1,55 @@
+.bookdetails-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 52px;
+    margin-bottom: 30px;
+    max-height: 711px;
+}
+.bookdetails-book{
+    width: 573px;
+    height: 711px;
+    border: 1px solid #f5f2f2;
+    background-color: #f5f2f2;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+.book-id{
+    width: 425px;
+    margin: 74px;
+    height: 564px;
+
+}
+.book-details{
+    width: 50%;
+
+}
+.b-detail{
+    margin-left: 48px   ;
+}
+.bookname{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.author{
+    margin-bottom: 24px;
+    font-size: 20px;
+}
+.b-detail hr{
+    margin-bottom: 16px ;
+}
+.catagory{
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+.review-text{
+   text-align: justify;
+   margin-bottom: 24px;
+}
+.tag{
+    margin-bottom: 24px;
+}
+.total-pages{
+    margin-bottom: 10px;
+    font-size: 16px;
+}
